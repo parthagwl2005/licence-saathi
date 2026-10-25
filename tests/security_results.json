@@ -1,0 +1,82 @@
+[
+ {
+  "test": "App starts with no personal details",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "test": "Half-filled form shows DigiLocker details",
+  "pass": true,
+  "detail": "Sunil Kumar"
+ },
+ {
+  "test": "Before locking, the form is stored readable (no lock chosen yet)",
+  "pass": true,
+  "detail": "Sunil Kumar,Mahesh Kumar,House 45,1988-05-12,9812345621"
+ },
+ {
+  "test": "Lock choice offers fingerprint/face/screen lock first",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "test": "Phone lock registered on the device",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "test": "After locking, NO personal detail is stored readable",
+  "pass": true,
+  "detail": "none found"
+ },
+ {
+  "test": "Encrypted vault exists and contains no readable name",
+  "pass": true,
+  "detail": "372336 chars of ciphertext"
+ },
+ {
+  "test": "Reopened form shows \"Your form is safe and locked\"",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "test": "No personal detail anywhere on the screen",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "test": "No form fields can be edited while locked",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "test": "\"Your details\" is also locked",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "test": "A stranger without the phone lock cannot open it",
+  "pass": true,
+  "detail": "unlock refused"
+ },
+ {
+  "test": "Starting fresh shows an empty choice, nothing old",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "test": "The locked data is untouched",
+  "pass": true,
+  "detail": ""
+ },
+ {
+  "test": "Owner unlocks with fingerprint and continues where they stopped",
+  "pass": true,
+  "detail": "Sunil Kumar"
+ },
+ {
+  "test": "Auto-locks after 2 minutes in the background",
+  "pass": true,
+  "detail": ""
+ }
+]

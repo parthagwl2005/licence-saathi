@@ -1,0 +1,14 @@
+node_modules
+dist
+publish
+.env
+.env.local
+.env.*.local
+.vercel
+.netlify
+
+# test screenshots
+tests/v5/
+tests/v6/
+tests/v7/
+tests/axe/

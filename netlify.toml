@@ -1,0 +1,17 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# Refresh on any page opens the app instead of a 404.
+# (The app uses /#/ links, so this is a safety net. Real files and the /api/chat function are served first.)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
